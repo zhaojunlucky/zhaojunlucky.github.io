@@ -1,6 +1,6 @@
 main:
-  - title: "Resume"
-    url: /resume/
+  - title: "ME"
+    url: /me/
   - title: "Posts"
     url: /year-archive/
   - title: "Categories"

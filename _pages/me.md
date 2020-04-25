@@ -1,7 +1,7 @@
 ---
 layout: single
 title: "Zhao, Jun"
-permalink: /resume/
+permalink: /me/
 author_profile: true
 toc: false
 classes: wide
