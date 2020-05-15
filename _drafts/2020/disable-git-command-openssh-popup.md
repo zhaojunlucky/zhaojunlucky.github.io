@@ -1,6 +1,6 @@
 ---
 last_modified_at: 2020-05-15T05:57:04+00:00
-title: disable git command openssh popup
+title: Disable Git Command Openssh Popup
 categories:
 - git
 
