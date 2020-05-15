@@ -22,5 +22,5 @@ fields:
   default: now
 pages:
 - _posts/2020/2020-04-15-jdk-14-jep-359-records.md
-- _posts/2020/disable-git-command-openssh-popup.md
+- _posts/2020/2020-05-15-disable-git-command-openssh-popup.md
 - _posts/2020/when-to-use-abstract-class-and-interface.md
