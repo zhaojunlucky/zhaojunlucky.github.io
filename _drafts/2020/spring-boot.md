@@ -41,6 +41,7 @@ public class SpringBootApplication {
 ```
 
 ## HikariCP Connection Pool
+This is the default in SpringBoot 2.
 Why fast?
 * Bytecode optimization with JavaAssist
 * Replace `ArrayList` with `FastStatementList`
