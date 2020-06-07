@@ -12,3 +12,27 @@ Exclude Spring boot auto-configuration
 * DataSourceAutoConfiguration
 * DataSourceTransactionManagerAutoConfiguration
 * JdbcTemplateAutoConfiguration
+
+```java
+@SpringBootApplication(exclude={DataSourceAutoConfiguration.class, DataSourceTransactionManagerAutoConfiguration.class, JdbcTemplateAutoConfiguration.class})
+public class SpringBootApplication {
+...
+
+@Bean
+@ConfigurationProperties("bar.properties")
+public DataSourceProperties barDataSourceProperties() {
+    return new DataSourceProperties();
+}
+
+@Bean
+public DataSource barDataSource() {
+    var dataSourceProps = barDataSourceProperties();
+    return dataSourceProps.initializeDataSourceBuilder().build();
+}
+
+@Bean
+@Resource
+public PlatformTransactionManager barTxManager(DataSource ds) {
+    return new DataSourceTransactionManager(ds);
+}
+```
