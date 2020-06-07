@@ -35,4 +35,7 @@ public DataSource barDataSource() {
 public PlatformTransactionManager barTxManager(DataSource ds) {
     return new DataSourceTransactionManager(ds);
 }
+
+// configure another
+...
 ```
