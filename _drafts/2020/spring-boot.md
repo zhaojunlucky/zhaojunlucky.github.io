@@ -42,6 +42,7 @@ public class SpringBootApplication {
 
 ## HikariCP Connection Pool
 Why fast?
-* Bytecode Optimize with JavaAssist
+* Bytecode optimization with JavaAssist
 * Replace `ArrayList` with `FastStatementList`
 * No lock `ConcurentBag`
+* Proxy class optimization (replace invokestatic replace invokevirtual)
