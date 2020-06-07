@@ -40,7 +40,8 @@ public class SpringBootApplication {
 }
 ```
 
-## HikariCP Connection Pool
+## Connection Pool
+### HikariCP
 This is the default in SpringBoot 2.  
 Why fast?
 * Bytecode optimization with JavaAssist
@@ -54,3 +55,6 @@ General configurations.
 * spring.datasource.hikari.idleTimeout=600000
 * spring.datasource.hikari.connectionTimeout=30000
 * spring.datasource.hikari.maxLifeTime=1800000
+
+### Alibaba Druid
+TBD
