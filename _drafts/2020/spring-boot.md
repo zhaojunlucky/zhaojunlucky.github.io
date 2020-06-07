@@ -41,9 +41,16 @@ public class SpringBootApplication {
 ```
 
 ## HikariCP Connection Pool
-This is the default in SpringBoot 2.
+This is the default in SpringBoot 2.  
 Why fast?
 * Bytecode optimization with JavaAssist
 * Replace `ArrayList` with `FastStatementList`
 * No lock `ConcurentBag`
 * Proxy class optimization (replace invokestatic replace invokevirtual)
+
+General configurations.
+* spring.datasource.hikari.maximumPoolSize=10
+* spring.datasource.hikari.minimumIdle=10
+* spring.datasource.hikari.idleTimeout=600000
+* spring.datasource.hikari.connectionTimeout=30000
+* spring.datasource.hikari.maxLifeTime=1800000
