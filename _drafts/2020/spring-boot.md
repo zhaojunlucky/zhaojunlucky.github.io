@@ -1,6 +1,6 @@
 ---
 last_modified_at: 2020-06-07T09:31:33+00:00
-title: Spring Boot
+title: Spring Boot Data Source
 categories:
 - spring boot
 
@@ -39,3 +39,5 @@ public class SpringBootApplication {
   // configure another
 }
 ```
+
+## HikariCP Connection Pool
