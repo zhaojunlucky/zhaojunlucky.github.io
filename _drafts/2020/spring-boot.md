@@ -58,3 +58,12 @@ General configurations.
 
 ### Alibaba Druid
 TBD
+
+## SQL
+### JdbcTemplate
+* Insert, delete, update, query
+* batchUpdate
+  * batchPreparedStamentSetter
+### NamedParameterJdbcTemplate
+* batchUpdate
+  * SqlPatameterSourceUtils.createBatch
