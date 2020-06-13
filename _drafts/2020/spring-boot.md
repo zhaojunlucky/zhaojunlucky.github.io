@@ -73,3 +73,23 @@ TBD
 ### Consistent Transaction Model
 * JDBC/Hibernate/myBaits
 * DataSource/JTA
+
+### Transaction Core Interface
+* PlantformTransactionManager
+  * DataSourceTransactionManager
+  * HibernateTransactionManager
+  * JtaTransactionManager
+  
+* Transaction Definition
+  * Propagation
+  * Isolation
+  * Timeout
+  * Read-only status
+
+Examples.
+
+```java
+void commit(TransactionStatus status) throws TransactionException;
+void rollback(TransactionStatus status) throws TransactionException;
+TransactionStatus getTransaction(@Nullable TransactionDefinition definition) throws TransactionException;
+```
