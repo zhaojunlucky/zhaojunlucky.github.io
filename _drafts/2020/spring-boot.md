@@ -81,7 +81,7 @@ TBD
   * JtaTransactionManager
   
 * Transaction Definition
-  * Propagation
+  * Propagation (Add 7)
   * Isolation
   * Timeout
   * Read-only status
