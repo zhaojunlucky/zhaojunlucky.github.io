@@ -68,3 +68,8 @@ TBD
 ### NamedParameterJdbcTemplate
 * batchUpdate
   * SqlPatameterSourceUtils.createBatch
+  
+## Spring Transaction
+### Consistent Transaction Model
+* JDBC/Hibernate/myBaits
+* DataSource/JTA
