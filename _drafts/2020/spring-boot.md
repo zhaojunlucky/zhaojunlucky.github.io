@@ -106,7 +106,7 @@ TransactionStatus getTransaction(@Nullable TransactionDefinition definition) thr
 [diagram]
 * Start annotation transaction
   * `@EnableTransactionManager`
-  * `<tx:annotation-driven/>
+  * `<tx:annotation-driven/>`
   
 * Others Configurations
   * proxyTargetClass
