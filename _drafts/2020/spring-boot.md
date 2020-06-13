@@ -102,3 +102,20 @@ TransactionStatus getTransaction(@Nullable TransactionDefinition definition) thr
 * PlatformTransactionManager
   * Customize it with `TransactionDefinition`
   
+#### Declarative Transaction
+[diagram]
+* Start annotation transaction
+  * `@EnableTransactionManager`
+  * `<tx:annotation-driven/>
+  
+* Others Configurations
+  * proxyTargetClass
+  * mode
+  * order
+
+* `@Transactional`
+  * transactionManager
+  * propagation
+  * isolation
+  * timeout
+  * how to rollback?
