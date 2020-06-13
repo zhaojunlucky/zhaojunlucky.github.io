@@ -93,3 +93,12 @@ void commit(TransactionStatus status) throws TransactionException;
 void rollback(TransactionStatus status) throws TransactionException;
 TransactionStatus getTransaction(@Nullable TransactionDefinition definition) throws TransactionException;
 ```
+
+#### Programmatic Transaction
+* TransactionTemplate
+  * TransactionCallback
+  * TransactionCallbackWithoutResult
+  
+* PlatformTransactionManager
+  * Customize it with `TransactionDefinition`
+  
