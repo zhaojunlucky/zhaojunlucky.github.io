@@ -82,7 +82,7 @@ TBD
   
 * Transaction Definition
   * Propagation (Add 7)
-  * Isolation
+  * Isolation (database isolation)
   * Timeout
   * Read-only status
 
