@@ -113,7 +113,9 @@ TransactionStatus getTransaction(@Nullable TransactionDefinition definition) thr
     Has interface, use proxy. Otherwise use cglib
     
   * mode
+    Default use java
   * order
+    Set the order, default is low priority, so, user defined AOP can work
 
 * `@Transactional`
   * transactionManager
