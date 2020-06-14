@@ -109,7 +109,7 @@ TransactionStatus getTransaction(@Nullable TransactionDefinition definition) thr
   * `<tx:annotation-driven/>`
   
 * Others Configurations
-  * proxyTargetClass
+  * proxyTargetClass (true or false)
     Has interface, use proxy. Otherwise use cglib
     
   * mode
