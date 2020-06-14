@@ -129,3 +129,8 @@ TransactionStatus getTransaction(@Nullable TransactionDefinition definition) thr
     When some exception occur
     
 ## Spring JDBC Exception
+### How Spring Know the Error Code
+SQLErrorCodeSQLExceptionTranslator
+### Error Code
+* `org/springframework/jdbc/support/sql-error-codes.xml`
+* sql-error-codes.xml under classpath
