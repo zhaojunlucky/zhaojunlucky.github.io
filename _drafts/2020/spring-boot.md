@@ -125,4 +125,5 @@ TransactionStatus getTransaction(@Nullable TransactionDefinition definition) thr
   * propagation
   * isolation
   * timeout
-  * how to rollback?
+  * how to rollback?  
+    When some exception occur
