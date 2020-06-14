@@ -110,6 +110,8 @@ TransactionStatus getTransaction(@Nullable TransactionDefinition definition) thr
   
 * Others Configurations
   * proxyTargetClass
+    Has interface, use proxy. Otherwise use cglib
+    
   * mode
   * order
 
