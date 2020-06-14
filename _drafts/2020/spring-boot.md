@@ -127,3 +127,5 @@ TransactionStatus getTransaction(@Nullable TransactionDefinition definition) thr
   * timeout
   * how to rollback?  
     When some exception occur
+    
+## Spring JDBC Exception
