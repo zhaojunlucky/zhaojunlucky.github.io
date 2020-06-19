@@ -1,0 +1,60 @@
+{
+    "tools": [
+        {
+            "id": "en-de-code",
+            "name": "Encode & Decode Utilities",
+            "summary": "Base64, URL Encode Decode utilities",
+            "items": [
+                {
+                    "id": "base64",
+                    "name": "Base64 Encode & Decode",
+                    "summary": "Suggests relevant options as the user types."
+                },
+                {
+                    "id": "url-en-de",
+                    "name": "URL Encode & Decode",
+                    "summary": "Suggests relevant options as the user types."
+                },
+                {
+                    "id": "json-formatter",
+                    "name": "JSON Formatter",
+                    "summary": ""
+                },
+                {
+                    "id": "sha",
+                    "name": "Secure Hash Algorithm",
+                    "summary": ""
+                }
+            ]
+        },
+        {
+            "id": "string-csv-markdown",
+            "name": "String & CSV & Markdown",
+            "summary": "String & CSV & Markdown utilities",
+            "items": [
+                {
+                    "id": "string-case",
+                    "name": "String Case",
+                    "summary": ""
+                },
+                {
+                    "id": "csv-to-md",
+                    "name": "CSV to Markdown Table",
+                    "summary": ""
+                }
+            ]
+        },
+        {
+            "id": "date-time",
+            "name": "Date & Time",
+            "summary": "Date & Time utilities",
+            "items": [
+                {
+                    "id": "date-in-a-few-days",
+                    "name": "Calculate the Date in a Few Days",
+                    "summary": ""
+                }
+            ]
+        }
+    ]
+}
