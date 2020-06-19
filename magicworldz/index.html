@@ -1,0 +1,34 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <title>Magicworldz</title>
+  <base href="/magicworldz/">
+
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="apple-mobile-web-app-capable" content="yes">
+  <meta name="mobile-web-app-capable" content="yes">
+
+  <link rel="icon" type="image/svg+xml" href="assets/images/home/logo.svg">
+  <link href="https://fonts.googleapis.com/css?family=Roboto:300,400,500" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+<link rel="stylesheet" href="styles.30506c193796cb6269f2.css"></head>
+<body class="docs-app-background mat-app-background">
+  <!-- Github Pages hack to allow SPA refresh without receiving 404. -->
+  <script>
+    (function () {
+      // Retrieve the URL the user was trying to access when receiving the 404.
+      var redirect = sessionStorage.redirect;
+      // Remove the URL from sessionStorage.
+      delete sessionStorage.redirect;
+      // Check if we actually need to redirect.
+      if (redirect && redirect != location.href) {
+        // We need to redirect to the URL the user was trying to access.
+        history.replaceState(null, null, redirect);
+      }
+    })();
+  </script>
+  <!-- /Github Pages hack. -->
+  <app-root></app-root>
+<script src="runtime.c51bd5b1c616d9ffddc1.js" defer></script><script src="polyfills-es5.2270b493d6d45bb35711.js" nomodule defer></script><script src="polyfills.a64eb92278e97caeb63c.js" defer></script><script src="main.67d6f779bd2d4cacdcab.js" defer></script></body>
+</html>
