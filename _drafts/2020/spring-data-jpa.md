@@ -19,3 +19,11 @@ JPA provides a POJO based persistence model for object relationship mapping
 * `@Id`
   * `@GeneratedValue(stategy, generator)`
   * `@SequenceGenerator(name, sequenceName)`
+  
+### Mapping
+* `@Column(name, nullable, length, insertable, updatable)`
+* `@JoinTable(name)`, `@JoinColumn(name)`
+
+### Relationship
+* `@OnetoOne`, `@OneToMany`, `@ManyToOne`, `@ManyToMany`
+* `@OrderBy`
