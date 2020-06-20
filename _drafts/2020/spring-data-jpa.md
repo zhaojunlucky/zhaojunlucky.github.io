@@ -27,3 +27,13 @@ JPA provides a POJO based persistence model for object relationship mapping
 ### Relationship
 * `@OnetoOne`, `@OneToMany`, `@ManyToOne`, `@ManyToMany`
 * `@OrderBy`
+
+## Repository
+### Enable JPA Repository
+* `@EnableJPARepositories`
+
+### `Repository<T, ID>` Interface
+* `CrudRepository<T, ID>`
+* `PagingAndSortingRepository<T, ID>`
+* `JpaRepository<T, ID>`
+
