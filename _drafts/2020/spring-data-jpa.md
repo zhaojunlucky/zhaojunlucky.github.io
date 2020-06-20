@@ -14,6 +14,7 @@ JPA provides a POJO based persistence model for object relationship mapping
 ### Entity
 * `@Entity`, `@MappedSuperclass
 * `@Table(name)`
+
 ### Primary Key
 * `@Id`
   * `@GeneratedValue(stategy, generator)`
