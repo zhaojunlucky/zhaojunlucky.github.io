@@ -31,6 +31,7 @@ JPA provides a POJO based persistence model for object relationship mapping
 ## Repository
 ### Enable JPA Repository
 * `@EnableJPARepositories`
+* `@NoRepositoryBean`
 
 ### `Repository<T, ID>` Interface
 * `CrudRepository<T, ID>`
