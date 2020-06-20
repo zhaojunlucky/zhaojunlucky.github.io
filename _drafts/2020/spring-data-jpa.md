@@ -43,3 +43,8 @@ JPA provides a POJO based persistence model for object relationship mapping
 * ...OrderBy...\[ASC/DESC\]
 * And/Or/IgnoreCase
 * Top/First/Distinct
+
+### Paging Query
+* `PagingAndSortingRepository<T, ID>`
+* Pageable/Sort
+* Slice\<T\>/Page\<T\>
