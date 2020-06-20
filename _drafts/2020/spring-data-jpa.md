@@ -10,7 +10,7 @@ JPA provides a POJO based persistence model for object relationship mapping
 * Simplify the persistence code development
 * Shield the differences of different persistence APIs for java community
 
-## Spring Data JPA Anotations
+## Spring Data Jpa Anotations
 ### Entity
 * `@Entity`, `@MappedSuperclass
 * `@Table(name)`
@@ -49,3 +49,6 @@ JPA provides a POJO based persistence model for object relationship mapping
 * `PagingAndSortingRepository<T, ID>`
 * Pageable/Sort
 * Slice\<T\>/Page\<T\>
+
+
+## How Jpa Repository Become to Bean
