@@ -10,3 +10,11 @@ JPA provides a POJO based persistence model for object relationship mapping
 * Simplify the persistence code development
 * Shield the differences of different persistence APIs for java community
 
+## Spring Data JPA Anotations
+### Entity
+* `@Entity`, `@MappedSuperclass
+* `@Table(name)`
+### Primary Key
+* `@Id`
+  * `@GeneratedValue(stategy, generator)`
+  * `@SequenceGenerator(name, sequenceName)`
