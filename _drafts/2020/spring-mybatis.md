@@ -11,3 +11,8 @@ categories:
 * mybatis.type-aliases-package = type alias' package name
 * mybatis.type-handlers-package = type handler package name
 * mybatis.configuration.map-underscore-to-camel-case = true
+
+## Mapper's Definition and Scan
+* `@MapperScan` configures scan location
+* `@Mapper` defines interface
+* Mapping definition (XML and anotation)
