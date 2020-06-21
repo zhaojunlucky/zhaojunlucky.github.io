@@ -12,7 +12,7 @@ JPA provides a POJO based persistence model for object relationship mapping
 
 ## Spring Data Jpa Anotations
 ### Entity
-* `@Entity`, `@MappedSuperclass
+* `@Entity`, `@MappedSuperclass`
 * `@Table(name)`
 
 ### Primary Key
