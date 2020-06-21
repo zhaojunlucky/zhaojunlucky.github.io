@@ -52,3 +52,9 @@ JPA provides a POJO based persistence model for object relationship mapping
 
 
 ## How Jpa Repository Become to Bean
+### `JpaRepositoriesRegistrar`
+* Activate `@EnableJpaRepositories`
+* Return `JpaRepositoryConfigExtension`
+
+### `RepositoryBeanDefinitionRegistrarSupport.registerBeanDefinitions`
+* Register Repository Bean(type is `JpaRepositoryFactoryBean`)
