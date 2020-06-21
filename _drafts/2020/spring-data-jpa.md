@@ -65,11 +65,11 @@ JPA provides a POJO based persistence model for object relationship mapping
 ### `JpaRepositoryFactory.getTargetRepository`
 * Create Repository
 
-## How the Jpa Repository Methods Been Interpreted
-### `RepositoryFactorySupport.getRepository` adds Advice
-* `DefaultMethodInvokingMethodInterpretor`
-* `QueryExecutorMethodInterpretor`
+### How the Jpa Repository Methods Been Interpreted
+* `RepositoryFactorySupport.getRepository` adds Advice
+  * `DefaultMethodInvokingMethodInterpretor`
+  * `QueryExecutorMethodInterpretor`
 
-### `AbstractJpaQuery.execute` run the queries
-### Grammer parse is in `Part`
+* `AbstractJpaQuery.execute` run the queries
+* Grammer parse is in `Part`
 
