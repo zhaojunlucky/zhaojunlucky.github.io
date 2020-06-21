@@ -71,3 +71,4 @@ JPA provides a POJO based persistence model for object relationship mapping
 * `QueryExecutorMethodInterpretor`
 ### `AbstractJpaQuery.execute` run the queries
 ### Grammer parse is in `Part`
+
