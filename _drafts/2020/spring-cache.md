@@ -12,3 +12,13 @@ categories:
 * Interfaces
   * `org.springframework.cache.Cache`
   * `org.springframework.cache.CacheManager`
+
+## Cache Annotations
+
+### `@EnableCaching`
+
+* `@Cacheable`
+* `@CacheEvict`
+* `@CachePut`
+* `@Caching`
+* `@CacheConfig`
