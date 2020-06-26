@@ -63,3 +63,11 @@ _RedisTemplate<K, V>_
 _StringRedisTemplate_
 
 **Don't forget to set expire time**
+
+### RedisRepository
+
+**Annotations**
+
+* `@RedisHash`
+* `@Id`
+* `@Indexed`
