@@ -53,3 +53,13 @@ LettuceClientConfiguration
 LettucePoolingClientConfiguration
 
 LettuceClientConfigurationBuilderCustomizer
+
+### RedisTemplate
+
+_RedisTemplate<K, V>_
+
+* opsForXxx()
+
+_StringRedisTemplate_
+
+**Don't forget to set expire time**
