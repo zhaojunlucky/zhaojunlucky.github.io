@@ -40,3 +40,16 @@ The new spring data Redis uses `LettuceConnectionFactory` to replace `JedisConne
 * RedisStandaloneConfiguration
 * RedisSentinelConfiguration
 * RedisClusterConfiguration
+
+### Read-Write Separation
+
+Lettuce supports read-write separation.
+
+* Read-only primary server, read-only secondary server
+* Read primary server first, read secondary server first
+
+LettuceClientConfiguration
+
+LettucePoolingClientConfiguration
+
+LettuceClientConfigurationBuilderCustomizer
