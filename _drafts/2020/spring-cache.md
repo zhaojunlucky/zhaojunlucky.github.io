@@ -111,6 +111,7 @@ _StringRedisTemplate_
       private Money price;
   }
   ```
+* `RedisCustomConverions`
 
 ## Handle Different Data Source Repository
 
