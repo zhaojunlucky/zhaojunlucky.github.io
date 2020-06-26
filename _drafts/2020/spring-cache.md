@@ -15,7 +15,7 @@ categories:
 
 ## Cache Annotations
 
-### `@EnableCaching`
+### `@EnableCaching(procyTargetClass=true)`
 
 * `@Cacheable`
 * `@CacheEvict`
