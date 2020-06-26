@@ -71,3 +71,11 @@ _StringRedisTemplate_
 * `@RedisHash`
 * `@Id`
 * `@Indexed`
+
+## Handle Different Data Source Repository
+
+How to distinguish these repositories?
+
+* Based on entity annotation
+* Based on the inherited interface type
+* Scan different package
