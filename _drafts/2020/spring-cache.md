@@ -8,4 +8,7 @@ categories:
 ## Spring Provide Uniformed Cache Abstraction
 
 * Add cache support for Java method to cache the execute result
-* 
+* Support `ConcurrentMap`, `EhCache`, `Caffeine`, `JCache(JSR-107`
+* Interfaces
+  * `org.springframework.cache.Cache`
+  * `org.springframework.cache.CacheManager`
