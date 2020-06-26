@@ -32,3 +32,11 @@ Configurations,
 * spring.cache.redis.time-tolive = 5000
 * spring.cache.redis.cache-null-values = false
 * spring.redis.host = localhost
+
+## Connection with Redis
+
+The new spring data Redis uses `LettuceConnectionFactory` to replace `JedisConnectionFactory`.
+
+* RedisStandaloneConfiguration
+* RedisSentinelConfiguration
+* RedisClusterConfiguration
