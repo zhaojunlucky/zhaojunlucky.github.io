@@ -71,23 +71,26 @@ _StringRedisTemplate_
 * `@RedisHash`
 * `@Id`
 * `@Indexed`
+* `@EnableRedisRepository`
 
 **Example**
 
 * Properties
+
   ```bash
   spring.redis.host=localhost
   spring.redis.lettuce.pool.maxActive=5
   spring.redis.lettuce.pool.maxIdle=5
   ```
-
 * Repository
+
   ```java
   public interface CoffeeCacheRepository extends CrudRepository<CoffeeCache, Long> {
       Optional<CoffeeCache> findOneByName(String name);
   }
   ```
 * Cache Entity
+
   ```java
   import lombok.AllArgsConstructor;
   import lombok.Builder;
