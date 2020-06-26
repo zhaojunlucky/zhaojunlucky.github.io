@@ -22,3 +22,13 @@ categories:
 * `@CachePut`
 * `@Caching`
 * `@CacheConfig`
+
+### Use Redis as Cache
+
+Configurations,
+
+* spring.cache.type = redis
+* spring.cache.cahe-names = coffee
+* spring.cache.redis.time-tolive = 5000
+* spring.cache.redis.cache-null-values = false
+* spring.redis.host = localhost
