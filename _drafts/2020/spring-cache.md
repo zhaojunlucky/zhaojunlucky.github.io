@@ -72,6 +72,37 @@ _StringRedisTemplate_
 * `@Id`
 * `@Indexed`
 
+**Example**
+
+* Properties
+  ```bash
+  spring.redis.host=localhost
+  spring.redis.lettuce.pool.maxActive=5
+  spring.redis.lettuce.pool.maxIdle=5
+  ```
+
+* Repository
+  ```java
+  public interface CoffeeCacheRepository extends CrudRepository<CoffeeCache, Long> {
+      Optional<CoffeeCache> findOneByName(String name);
+  }
+  ```
+* Cache Entity
+  ```java
+  @RedisHash(value = "springbucks-coffee", timeToLive = 60)
+  @Data
+  @NoArgsConstructor
+  @AllArgsConstructor
+  @Builder
+  public class CoffeeCache {
+      @Id
+      private Long id;
+      @Indexed
+      private String name;
+      private Money price;
+  }
+  ```
+
 ## Handle Different Data Source Repository
 
 How to distinguish these repositories?
