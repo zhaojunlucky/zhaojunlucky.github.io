@@ -79,3 +79,5 @@ categories:
   * `boolean proxyTargetClass() default true`, true will use CGLIB
 * `ProxyTransactionManagementConfiguration`
 * `TransactionInterceptor`
+* `MethodInterceptor`
+* 
