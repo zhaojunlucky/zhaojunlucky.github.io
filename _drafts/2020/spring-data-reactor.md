@@ -39,3 +39,13 @@ categories:
 * PostgreSQL (io.r2dbc:r2dbc-postgres)
 * H2 (io.r2dbc:r2dbc-h2)
 * MSSQL (io.r2dbc:r2dbc-mssql)
+
+### R2DBC Classes
+
+* ConnectionFactory
+* DatabaseClient
+  * execute().sql(SQL)
+  * select() / insert()
+  * inTransaction(db -> {})
+* R2dbcExceptionTranslator
+  * SqlErrorCodeR2dbcExceptionTranslator
