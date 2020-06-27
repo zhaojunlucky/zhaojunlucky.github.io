@@ -88,4 +88,6 @@ categories:
 * `@Aspect`
 * `@Pointcut`
 * `@Before`
-* `@After` / `@AfterReturning` / `@AfterThrow`
+* `@After` / `@AfterReturning` / `@AfterThrowing`
+* `@Around`
+* `@Order`
