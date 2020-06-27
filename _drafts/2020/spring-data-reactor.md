@@ -27,3 +27,15 @@ categories:
 * ReactiveMongoClientFactoryBean
 * ReactiveMongoDatabaseFactory
 * ReactiveMongoTemplate
+
+## Spring Data R2DBC
+
+### R2DBC
+
+* Reactive Relational Database Connectivity
+
+### Supported Databases
+
+* PostgreSQL (io.r2dbc:r2dbc-postgres)
+* H2 (io.r2dbc:r2dbc-h2)
+* MSSQL (io.r2dbc:r2dbc-mssql)
