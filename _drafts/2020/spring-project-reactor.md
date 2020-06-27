@@ -13,7 +13,17 @@ categories:
 * Flux \[0..N\] - onNext(), onComplete(), onError()
 * Mono \[0..1\] - onNext(), onComplete(), onError()
 
-Backpressure
+### Backpressure
 
 * Subscription
 * onRequest(), onCancel(), onDispose()
+
+### Thread Schedulers
+
+* immediate() / single() / newSingle()
+* elastic() / parallel() / newParallel()
+
+### Error Handling
+
+* onError / onErrorReturn / onErrorResume
+* doOnError / doFinally
