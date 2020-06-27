@@ -6,3 +6,14 @@ categories:
 
 ---
 ## Core Concept
+
+### Operators - Publisher/Subscriber
+
+* Nothing happens until you subscribe
+* Flux \[0..N\] - onNext(), onComplete(), onError()
+* Mono \[0..1\] - onNext(), onComplete(), onError()
+
+Backpressure
+
+* Subscription
+* onRequest(), onCancel(), onDispose()
