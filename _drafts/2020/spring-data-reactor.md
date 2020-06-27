@@ -92,7 +92,7 @@ categories:
 * `@Around`
 * `@Order`
 
-### How to Print SQL
+### How to Print
 
 #### HikariCP
 
