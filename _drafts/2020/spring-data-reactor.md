@@ -15,3 +15,15 @@ categories:
 * ReactiveRedisConnectionFactory
 * ReactiveRedisTemplate
   * opsForXxx()
+
+## Spring Data MongoDB
+
+**MongoDB provides support for Reactive**
+
+* mongodb-driver-reactivestreams
+
+**Spring Data MongoDB Support**
+
+* ReactiveMongoClientFactoryBean
+* ReactiveMongoDatabaseFactory
+* ReactiveMongoTemplate
