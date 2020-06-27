@@ -81,4 +81,11 @@ categories:
 * `ProxyTransactionManagementConfiguration`
 * `TransactionInterceptor`
 * `MethodInterceptor`
-* 
+
+### Common Annotations
+
+* `@EnableAspectJAutoProxy`
+* `@Aspect`
+* `@Pointcut`
+* `@Before`
+* `@After` / `@AfterReturning` / `@AfterThrow`
