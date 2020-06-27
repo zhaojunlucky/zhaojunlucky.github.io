@@ -59,16 +59,22 @@ categories:
   * User-defined query needs write `@Query` by yourself
 
 ## Use AOP to Print Database Access Layer Abstract
+
 ### Spring AOP Core Concept
-| Concept       | Description                                                  |
-| ------------- | ------------------------------------------------------------ |
-| Aspect        | aspect                                                       |
-| Join Point    | connection point, it reprents one method execution in Spring AOP |
-| Advice        | notification, the action executed in the join point          |
-| Pointcut      | describe how to match the join point                         |
-| Introduction  | provide extra method and property for the existing type declaration |
-| Target object | Target object                                                |
-| AOP proxy     | AOP proxied object, ethier JDK dynamic proxy or CGLIB proxy  |
-| Weaving       | the process which connect the aspect and the target object or create proxy for the type |
 
+| Concept | Description |
+| --- | --- |
+| Aspect | aspect |
+| Join Point | connection point, it reprents one method execution in Spring AOP |
+| Advice | notification, the action executed in the join point |
+| Pointcut | describe how to match the join point |
+| Introduction | provide extra method and property for the existing type declaration |
+| Target object | Target object |
+| AOP proxy | AOP proxied object, ethier JDK dynamic proxy or CGLIB proxy |
+| Weaving | the process which connect the aspect and the target object or create proxy for the type |
 
+**Related Classes**
+
+* `EnableTransactionManagement`
+  * `boolean proxyTargetClass() default true`, true will use CGLIB
+  *
