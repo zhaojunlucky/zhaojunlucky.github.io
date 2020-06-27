@@ -49,3 +49,11 @@ categories:
   * inTransaction(db -> {})
 * R2dbcExceptionTranslator
   * SqlErrorCodeR2dbcExceptionTranslator
+
+### R2DBC Repository
+
+* `@EnableR2dbcRepositories`
+* `ReactiveCrudRepository<T, ID>`
+  * `@Table` / `@Id`
+  * All the methods return `Flux` or `Mono`
+  * User-defined query needs write `@Query` by yourself
