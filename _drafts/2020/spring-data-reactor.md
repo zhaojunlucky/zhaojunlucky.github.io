@@ -7,4 +7,11 @@ categories:
 ---
 ## Spring Data Redis
 
-Lettuce supports Reactive
+**Lettuce supports Reactive**
+
+**Spring Data Redis Reactive Supports**
+
+* ReactiveRedisConnection
+* ReactiveRedisConnectionFactory
+* ReactiveRedisTemplate
+  * opsForXxx()
