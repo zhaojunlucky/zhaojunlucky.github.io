@@ -89,3 +89,10 @@ categories:
   * Hibernate Validator
 * `@Valid` Annotation
 * BindingResult
+
+### Multipart Upload
+
+* Configure MultipartResolver
+  * Spring Boot supports auto-configure `MultipartAutoConfiguration`
+* Support Type `multipart/form-data`
+* 
