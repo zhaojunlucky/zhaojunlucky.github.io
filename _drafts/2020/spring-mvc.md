@@ -15,3 +15,12 @@ categories:
   * HandlerExceptionResolver
   * MultipartResolver
 * HandlerMapping
+
+## Spring MVC Annotations
+
+* `@Controller`
+  * `@RestController`
+* `@RequestMapping`
+  * `@GetMapping` / `@PostMapping`
+  * `@PutMapping` / `@DeleteMapping`
+* `@RequestBody` / `@ResponseBody` / `@ResponseStatus`
