@@ -95,4 +95,4 @@ categories:
 * Configure MultipartResolver
   * Spring Boot supports auto-configure `MultipartAutoConfiguration`
 * Support Type `multipart/form-data`
-* MultipleFile type
+* MultipartFile type
