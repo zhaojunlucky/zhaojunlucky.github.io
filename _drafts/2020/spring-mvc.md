@@ -54,3 +54,5 @@ categories:
 * Execute the controller `pre` and `post` logic if handler found
 
 ### Process and Render the Model
+
+## Customize Processing Method
