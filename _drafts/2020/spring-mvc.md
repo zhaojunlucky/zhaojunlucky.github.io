@@ -53,4 +53,4 @@ categories:
 
 * Execute the controller `pre` and `post` logic if handler found
 
-### Process and Return the Model
+### Process and Render the Model
