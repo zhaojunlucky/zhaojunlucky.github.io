@@ -26,3 +26,15 @@ categories:
 * `@RequestBody` / `@ResponseBody` / `@ResponseStatus`
 
 ## Spring Application Context
+
+### Diagram
+
+### Interface
+
+* BeanFactory
+  * DefaultListableBeanFactory
+* ApplicationContext
+  * ClassPathXmlApplicationContext
+  * FileSystemXmlApplicationContext
+  * AnnotationConfigApplicationContext
+* WebApplicationContext
