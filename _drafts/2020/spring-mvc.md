@@ -77,8 +77,15 @@ categories:
 
 ### Custom Type Converter
 
-### Implement `WebMvcConfigurer`
+#### Implement `WebMvcConfigurer`
 
 * Spring Boot implements one `WebMvcAutoConfiguration`
 * Add User-defined `Converter`
 * Add User-defined `Formatter`
+
+### Custom Validation
+
+* Validate the binding result through `Validator`
+  * Hibernate Validator
+* `@Valid` Annotation
+* BindingResult
