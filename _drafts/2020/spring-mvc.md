@@ -74,3 +74,11 @@ categories:
 * `@RequestBody`/`@ResponseBody`/`@ResponseStatus`
 * `@PathVariable`/`@RequestParam`/`@RequestHeader`
 * `HttpEntity`/`ResponseEntity`
+
+### Custom Type Converter
+
+### Implement `WebMvcConfigurer`
+
+* Spring Boot implements one `WebMvcAutoConfiguration`
+* Add User-defined `Converter`
+* Add User-defined `Formatter`
