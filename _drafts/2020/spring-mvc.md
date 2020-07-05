@@ -25,4 +25,4 @@ categories:
   * `@PutMapping` / `@DeleteMapping`
 * `@RequestBody` / `@ResponseBody` / `@ResponseStatus`
 
-## Spring Context
+## Spring Application Context
