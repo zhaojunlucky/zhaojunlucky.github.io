@@ -71,3 +71,6 @@ categories:
 
 * `@RestController`
 * `@GetMapping`/`@PostMapping`/`@PutMapping`/`@DeleteMapping`/`@PatchMapping`
+* `@RequestBody`/`@ResponseBody`/`@ResponseStatus`
+* `@PathVariable`/`@RequestParam`/`@RequestHeader`
+* `HttpEntity`/`ResponseEntity`
