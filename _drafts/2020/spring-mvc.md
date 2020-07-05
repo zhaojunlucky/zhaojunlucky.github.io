@@ -58,3 +58,16 @@ categories:
 ## Custom Processing Method
 
 ### Custom Mapping Relationship
+
+#### `@Controller`
+
+#### `@RequestMapping`
+
+* path/method. Specify the path and method
+* params/header. Limit the mapping scope
+* consumes/produces. Limit request/response format
+
+#### Some shortcuts
+
+* `@RestController`
+* `@GetMapping`/`@PostMapping`/`@PutMapping`/`@DeleteMapping`/`@PatchMapping`
