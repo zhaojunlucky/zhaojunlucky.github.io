@@ -51,6 +51,6 @@ categories:
 
 ### Handler Processing
 
-* Execute the controller before and post logic if handler found
+* Execute the controller `pre` and `post` logic if handler found
 
 ### Process and Return the Model
