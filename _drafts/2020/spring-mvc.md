@@ -38,3 +38,19 @@ categories:
   * FileSystemXmlApplicationContext
   * AnnotationConfigApplicationContext
 * WebApplicationContext
+
+## Understanding the Request Handling Process
+
+### Bind Attributes
+
+* WebApplicationContext / LocalResolver / ThemeResolver
+
+### Process Multipart
+
+* Convert the request to MultipartHttpServletRequest if it's multipart
+
+### Handler Processing
+
+* Execute the controller before and post logic if handler found
+
+### Process and Return the Model
