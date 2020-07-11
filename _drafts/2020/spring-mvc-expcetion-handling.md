@@ -28,3 +28,5 @@ categories:
 
 * @Controller/@RestController
 * @ControllerAdvice/@RestControllerAdvice
+
+>  Low priority than @ExpceionHandler in controller class
