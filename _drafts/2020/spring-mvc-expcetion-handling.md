@@ -41,3 +41,12 @@ Add HTTP status annotation in Exception class.
   * boolean preHandle()
   * void postHandle()
   * void afterCompletion()
+
+### @ResponceBody & @ResponseEntity
+
+* ResponseBodyAdvice
+
+### Async Request
+
+* AsyncHandlerInterceptor
+  * void afterConcurrentHandlingStarted()
