@@ -1,6 +1,6 @@
 ---
 last_modified_at: 2020-07-05T02:03:27+00:00
-title: Spring MVC
+title: Spring MVC Basic
 categories:
 - spring mvc
 
