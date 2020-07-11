@@ -58,16 +58,21 @@ categories:
 * JacksonHttpMessageConvertersConfiguration
   * Add `jackson-dataformat-xml` to support XML serialization
 
-## Spring boot Static Resource Configuration
+## Spring Boot Static Resource Configuration and Cache
+### Resource Configuration
 
-### Core
+#### Core
 
 * WebMvcConfigurer.addResourceHandlers()
 
-### Common Configurations
+#### Common Configurations
 
 * spring.mvc.static-path-pattern = /**
 * spring.resources.static-locations = classpath:/META-INF/resources/, classpath:/resources/,classpath:/static/,classpath:/public/
+
+### Spring Boot Resouce Cache
+
+#### Common Configurations
 * ResourceProperties.Cache
 * spring.resouce.cache.cachecontrol.max-age=time
 * spring.resouce.cache.cachecontrol.no-cache=true/false
