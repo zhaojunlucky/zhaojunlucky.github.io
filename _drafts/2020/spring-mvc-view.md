@@ -1,6 +1,6 @@
 ---
 last_modified_at: 2020-07-11T07:16:05+00:00
-title: Spring MVC View
+title: Spring MVC View & Static Resouce & Cache
 categories:
 - spring mvc
 
