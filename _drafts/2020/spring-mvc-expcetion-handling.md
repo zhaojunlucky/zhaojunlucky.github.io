@@ -19,3 +19,12 @@ categories:
 * ExeptionHandlerExceptionResolver
 
 ## Spring MVC Exception Handle Methods
+
+### Method
+
+* @ExceptionHandler
+
+### Add Location
+
+* @Controller/@RestController
+* @ControllerAdvice/@RestControllerAdvice
