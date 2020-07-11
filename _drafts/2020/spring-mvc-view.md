@@ -68,3 +68,7 @@ categories:
 
 * spring.mvc.static-path-pattern = /**
 * spring.resources.static-locations = classpath:/META-INF/resources/, classpath:/resources/,classpath:/static/,classpath:/public/
+* ResourceProperties.Cache
+* spring.resouce.cache.cachecontrol.max-age=time
+* spring.resouce.cache.cachecontrol.no-cache=true/false
+* spring.resouce.cache.cachecontrol.s-max-age=time
