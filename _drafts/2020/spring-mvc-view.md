@@ -35,3 +35,11 @@ categories:
 
 * `rediect:`, http client 302
 * `forward:`, server side
+
+## Spring MVC Common Views
+
+### Supported Views
+
+* [https://docs.spring.io/spring/docs/current/spring-framework-reference/web.html#mvc-view](https://docs.spring.io/spring/docs/current/spring-framework-reference/web.html#mvc-view "https://docs.spring.io/spring/docs/current/spring-framework-reference/web.html#mvc-view")
+* Jackson-based JSON/XML
+* Thymeleaf & Freemarker
