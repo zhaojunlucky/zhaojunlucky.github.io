@@ -5,13 +5,17 @@ categories:
 - spring mvc expcetion handling
 
 ---
-## Core
+## Spring MVC Exception Basic
+
+### Core
 
 * HandlerExceptionResolver
 
-## Implementation
+### Implementation
 
 * SimpleMappingExpcetionResolver
 * DefaultHandlerExceptionResolver
 * ResponseStatusExceptionResolver
 * ExeptionHandlerExceptionResolver
+
+## Spring MVC Exception Handle Methods
