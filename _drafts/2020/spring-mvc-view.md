@@ -30,3 +30,8 @@ categories:
   * RequestMappingHandlerAdapter.invokeHandlerMethod()
     * HandlerMethodReturnValueHandlerComposite.handlerReturnValue()
       * RequestResponseBodyMethodProcessor.handleReturnValue()
+
+### Redirect
+
+* `rediect:`, http client 302
+* `forward:`, server side
