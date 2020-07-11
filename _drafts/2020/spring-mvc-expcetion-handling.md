@@ -50,3 +50,14 @@ Add HTTP status annotation in Exception class.
 
 * AsyncHandlerInterceptor
   * void afterConcurrentHandlingStarted()
+
+### Interceptor Configuration
+
+#### Normal Methods
+
+* WebMvcConfigurer.addInterceptors()
+
+#### Spring Boot
+
+* Create a WebMvcConfiguere configuration class with annotation `@Configuration`
+* No `@EnableWebMvc`(except you want control MVC configuration by yourself)
