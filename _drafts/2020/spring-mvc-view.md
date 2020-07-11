@@ -23,3 +23,10 @@ categories:
   * processDispatchResult()
   * if no view returns, try RequestToViewNameTranslator
   * resolveViewName() resolve view object
+
+#### @ResponseBody
+
+* In HandlerAdapter.handle(), it outputs the response
+  * RequestMappingHandlerAdapter.invokeHandlerMethod()
+    * HandlerMethodReturnValueHandlerComposite.handlerReturnValue()
+      * RequestResponseBodyMethodProcessor.handleReturnValue()
