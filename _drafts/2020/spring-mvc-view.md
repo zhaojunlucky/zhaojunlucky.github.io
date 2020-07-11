@@ -43,3 +43,9 @@ categories:
 * [https://docs.spring.io/spring/docs/current/spring-framework-reference/web.html#mvc-view](https://docs.spring.io/spring/docs/current/spring-framework-reference/web.html#mvc-view "https://docs.spring.io/spring/docs/current/spring-framework-reference/web.html#mvc-view")
 * Jackson-based JSON/XML
 * Thymeleaf & Freemarker
+
+### Configure MessageConverter
+
+* Through configureMessageConverters() of WebMvcConfigurer
+  * Spring boot auto find and register HttpMessageConverters  
+    ![](/uploads/message-converter.png)
