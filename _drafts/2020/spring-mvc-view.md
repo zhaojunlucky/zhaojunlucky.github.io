@@ -59,6 +59,7 @@ categories:
   * Add `jackson-dataformat-xml` to support XML serialization
 
 ## Spring Boot Static Resource Configuration and Cache
+
 ### Resource Configuration
 
 #### Core
@@ -73,7 +74,12 @@ categories:
 ### Spring Boot Resouce Cache
 
 #### Common Configurations
+
 * ResourceProperties.Cache
 * spring.resouce.cache.cachecontrol.max-age=time
 * spring.resouce.cache.cachecontrol.no-cache=true/false
 * spring.resouce.cache.cachecontrol.s-max-age=time
+
+### Controller Manually Set (Not Recommend)
+
+![](/uploads/controller-manually-set-cache.png)
