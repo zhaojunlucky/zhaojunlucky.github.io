@@ -14,3 +14,12 @@ categories:
 * FreeMarkerViewResolver
 * ContentNegotiatingViewResolver
 * InternalResourceViewResolver
+
+### View Resolve Logic in `DispatchServlet`
+
+* initStrategies()
+  * initResolvers() initialize the ViewResolver
+* doDispatch()
+  * processDispatchResult()
+  * if no view returns, try RequestToViewNameTranslator
+  * resolveViewName() resolve view object
