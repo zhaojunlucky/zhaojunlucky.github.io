@@ -29,4 +29,6 @@ categories:
 * @Controller/@RestController
 * @ControllerAdvice/@RestControllerAdvice
 
->  Low priority than @ExpceionHandler in controller class
+>  Low priority than @ExpceionHandler in controller class.
+
+Add HTTP status annotation in Exception class.
