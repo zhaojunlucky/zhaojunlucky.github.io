@@ -49,3 +49,11 @@ categories:
 * Through configureMessageConverters() of WebMvcConfigurer
   * Spring boot auto find and register HttpMessageConverters  
     ![](/uploads/message-converter.png)
+
+### Jackson Support in Spring Boot
+
+* JacksonAutoConfiguration
+  * Spring boot register JSON serialization component through @JsonComponent
+  * Jackson2ObjectMapperBuilderCustomizer
+* JacksonHttpMessageConvertersConfiguration
+  * Add `jackson-dataformat-xml` to support XML serialization
