@@ -32,3 +32,12 @@ categories:
 >  Low priority than @ExpceionHandler in controller class.
 
 Add HTTP status annotation in Exception class.
+
+## Spring MVC Interceptor
+
+### Core
+
+* HandlerInterceptor
+  * boolean preHandle()
+  * void postHandle()
+  * void afterCompletion()
