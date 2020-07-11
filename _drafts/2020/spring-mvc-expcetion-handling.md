@@ -42,7 +42,7 @@ Add HTTP status annotation in Exception class.
   * void postHandle()
   * void afterCompletion()
 
-### @ResponceBody & @ResponseEntity
+### @ResponceBody & ResponseEntity
 
 * ResponseBodyAdvice
 
