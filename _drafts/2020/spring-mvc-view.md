@@ -57,3 +57,14 @@ categories:
   * Jackson2ObjectMapperBuilderCustomizer
 * JacksonHttpMessageConvertersConfiguration
   * Add `jackson-dataformat-xml` to support XML serialization
+
+## Spring boot Static Resource Configuration
+
+### Core
+
+* WebMvcConfigurer.addResourceHandlers()
+
+### Common Configurations
+
+* spring.mvc.static-path-pattern = /**
+* spring.resources.static-locations = classpath:/META-INF/resources/, classpath:/resources/,classpath:/static/,classpath:/public/
