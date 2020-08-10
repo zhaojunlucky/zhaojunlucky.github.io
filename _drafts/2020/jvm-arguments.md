@@ -6,7 +6,7 @@ categories:
 
 ---
 * `-Xms`, minimum heap memory
-  * -Xms20m
+  * Example: -Xms20m
 * `-Xmx`, max heap memory
-  * -Xmx20m
+  * Example: -Xmx20m
 * `-XX:+DumpOnOutOfMemoryError`, let JVM dump current memory snapshot when out of memory
