@@ -17,7 +17,7 @@ It saves two types of information.
 
 1. Save the object self's runtime information
 
-## Mark Word
+### Mark Word
 
 The 32 bit and 64 bit VM are different.
 
