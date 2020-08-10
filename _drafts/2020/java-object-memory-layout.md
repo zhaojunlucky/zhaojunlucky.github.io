@@ -89,3 +89,19 @@ The 32 bit and 64 bit VM are different.
 >   |  |  |  | not valid at any other time |
 >
 >   We assume that stack/thread pointers have the lowest two bits cleared.
+
+## Instance Data
+
+The instance data saves the variables defined in the class, including the variable defined in the parent class. The store sequence will be impacted by the JVM argument `-XX:FieldsAllocationStyle` and the sequence defined in the class.
+
+> The Hotspot's default allocation sequence is that,
+>
+> * longs/doubles
+> * ints
+> * shorts/chars
+> * bytes/booleans
+> * oops(Ordinary Object Pointers, OOP)
+
+Also, if JVM argument `-XX:CompactFields` is true(default value), the thinner variable in the child class will be inserted into the gap of parent variables.
+
+## Padding
