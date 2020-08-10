@@ -5,6 +5,6 @@ categories:
 - jvm
 
 ---
-* `-Xms`, min heap memory
+* `-Xms`, minimum heap memory
 * `-Xmx`, max heap memory
 * `-XX:+DumpOnOutOfMemoryError`, let JVM dump current memory snapshot when out of memory
