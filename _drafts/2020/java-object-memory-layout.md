@@ -15,7 +15,9 @@ In Hotspot VM, the object layout in the heap can be divided into three parts,
 
 It saves two types of information.
 
-1. Save the object self's runtime information
+1. Save the object self's runtime information, the officials call it `Mark Word`, such as HashCode, GC generation age, lock states, the lock that the thread holds, biased thread id, biased timestamp.
+2. Save the type pointer, that's the pointer to the meta-type, Java VM used it to determine which type of this object is, this is an optional implementation in the VM.  
+   If the object is an array, there is a data in the header to save the array's length
 
 ### Mark Word
 
