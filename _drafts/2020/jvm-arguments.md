@@ -9,4 +9,4 @@ categories:
   * Example: -Xms20m
 * `-Xmx`, max heap memory
   * Example: -Xmx20m
-* `-XX:+DumpOnOutOfMemoryError`, let JVM dump current memory snapshot when out of memory
+* `-XX:+HeapDumpOnOutOfMemoryError`, let JVM dump current memory snapshot when out of memory
