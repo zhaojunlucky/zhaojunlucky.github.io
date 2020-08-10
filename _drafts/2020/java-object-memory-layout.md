@@ -105,3 +105,5 @@ The instance data saves the variables defined in the class, including the variab
 Also, if JVM argument `-XX:CompactFields` is true(default value), the thinner variable in the child class will be inserted into the gap of parent variables.
 
 ## Padding
+
+The HotSpot VM's auto memory management system requires the starting address of the object must be 8-byte event digits, which means any object's size muse be 8-byte event digits. So, if an object's instance data doesn't align, it needs padding.
