@@ -21,7 +21,7 @@ It saves two types of information.
 
 The 32 bit and 64 bit VM are different.
 
-* 32 bit word
+* 32-bit word
 
 | Object | Format |
 | --- | --- |
@@ -30,7 +30,7 @@ The 32 bit and 64 bit VM are different.
 | CMS free block | 32 bits |
 | CMS promoted object | PromotedObject*: 29, promo_bits: 3 |
 
-* 64 bit word
+* 64-bit word
 
 | Object | Format |
 | --- | --- |
