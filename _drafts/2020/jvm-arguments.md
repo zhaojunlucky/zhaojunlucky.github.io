@@ -15,3 +15,6 @@ categories:
 * `-XX:PermSize`, `-XXMaxPermSize`
   * only take effect below JDK6
   * from JDK 7, perm generation moved to Java heap
+  * ```java
+    aa
+    ```
