@@ -12,3 +12,6 @@ categories:
 * `-XX:+HeapDumpOnOutOfMemoryError`, let JVM dump current memory snapshot when out of memory
 * `-Xss`, max stack size, different on OS
   * Example: -Xss128k. Recursive call or define more local arguments.
+* `-XX:PermSize`, `-XXMaxPermSize`
+  * only take effect below JDK6
+  * from JDK 7, perm generation moved to Java heap
