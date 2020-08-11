@@ -28,3 +28,5 @@ categories:
 * `-XX:MetaspaceSize`, set the initial size of the metaspace, the unit is bytes. If the used size exceeds this size, will trigger GC and size adjustment:
   * If released a lot of space, then decrease this value
   * If released space is low, then increase this value(not exceeds the max value)
+* `-XX:MinMetaspaceFreeRation`, set the minimal ration of the free space
+* `-XX:MaxMetaspaceFreeRation`, set max ration of the free space
