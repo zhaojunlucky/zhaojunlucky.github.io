@@ -33,5 +33,5 @@ categories:
 * `-XX:MaxDirectMemorySize`, set the max direct memory size. The default is the same as the -Xmx.
 * `-verbose` verbose GC
   * Example: -verbose:class
-* `-XX:+TraceClass-Loading`
+* `-XX:+TraceClassLoading`
 * `-XX:+TraceClassUnLoading`(only in ddebug JVM)
