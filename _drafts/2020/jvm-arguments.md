@@ -24,4 +24,7 @@ categories:
     String str2 = new StringBuilder("ja").append("va").toString();
     System.out.println(str2.intern() == str2);
     ```
-  * 
+* `-XX:MaxMetaspaceSize`, set the max size of the metaspace. Default -1 no limitation.
+* `-XX:MetaspaceSize`, set the initial size of the metaspace, the unit is bytes. If the used size exceeds this size, will trigger GC and size adjustment:
+  * If released a lot of space, then decrease this value
+  * If released space is low, then increase this value(not exceeds the max value)
