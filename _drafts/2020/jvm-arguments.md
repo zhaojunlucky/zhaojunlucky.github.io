@@ -14,7 +14,7 @@ categories:
   * Example: -Xss128k. Recursive call or define more local arguments.
 * `-XX:PermSize`, `-XXMaxPermSize`
   * only take effect below JDK6
-  * from JDK 7, String constant moved from perm generation to Java heap
+  * from JDK 7, String constant moved from perm generation to Java heap. From JDK 8, perm generation has been replaced by metaspace
   * The following code will print "true", "true" in JDK 6, print "true", "false" in JDK 7 and later.
 
     ```java
