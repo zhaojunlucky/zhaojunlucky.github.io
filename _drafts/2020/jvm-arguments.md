@@ -31,3 +31,5 @@ categories:
 * `-XX:MinMetaspaceFreeRation`, set the minimal ration of the free space
 * `-XX:MaxMetaspaceFreeRation`, set max ration of the free space
 * `-XX:MaxDirectMemorySize`, set the max direct memory size. The default is the same as the -Xmx.
+* `-verbose` verbose GC
+  * Example: -verbose:class
