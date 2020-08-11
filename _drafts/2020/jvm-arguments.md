@@ -30,3 +30,4 @@ categories:
   * If released space is low, then increase this value(not exceeds the max value)
 * `-XX:MinMetaspaceFreeRation`, set the minimal ration of the free space
 * `-XX:MaxMetaspaceFreeRation`, set max ration of the free space
+* `-XX:MaxDirectMemorySize`, set the max direct memory size. Default is the same as the -Xmx.
