@@ -34,4 +34,4 @@ categories:
 * `-verbose` verbose GC
   * Example: -verbose:class
 * `-XX:+TraceClassLoading`
-* `-XX:+TraceClassUnLoading`(only in ddebug JVM)
+* `-XX:+TraceClassUnLoading`(only in debug JVM)
