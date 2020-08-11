@@ -11,3 +11,4 @@ categories:
   * Example: -Xmx20m
 * `-XX:+HeapDumpOnOutOfMemoryError`, let JVM dump current memory snapshot when out of memory
 * `-Xss`, max stack size, different on OS
+  * Example: -Xss128k. Recursive call or define more local arguments.
