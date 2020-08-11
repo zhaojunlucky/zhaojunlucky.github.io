@@ -15,6 +15,12 @@ categories:
 * `-XX:PermSize`, `-XXMaxPermSize`
   * only take effect below JDK6
   * from JDK 7, perm generation moved to Java heap
-  * ```java
-    aa
+  * The following code will print "true", "true" in JDK 6, print "true", "false" in JDK 7 and later.
+
+    ```java
+    String str1 = new StringBuilder("computer").append("software").toString();
+    System.out.println(str1.intern() == str1);
+    
+    String str2 = new StringBuilder("ja").append("va").toString();
+    System.out.println(str2.intern() == str2);
     ```
