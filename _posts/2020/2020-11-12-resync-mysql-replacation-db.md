@@ -21,10 +21,10 @@ Let the new replication to sync with the new primary to do validation test.
 2. Issue a CHANGE MASTER command but omit the log file name and position  
    `CHANGE MASTER to MASTER_HOST='<new primary hos_>',MASTER_USER='<user>', MASTER_PASSWORD='<password>';`
 3. Dump a backup from the new primary  
-   `ysqldump -uroot -p --master-data --all-databases --flush-privileges | gzip -1 > replication.sql.gz`
+   `mysqldump -uroot -p --master-data --all-databases --flush-privileges | gzip -1 > replication.sql.gz`
 4. Copy the dump to replication
 5. Import the dump to replication  
-   `zcat | grep MySQL -uroot -p`
+   `zcat 'gz file'| mysql -uroot -p`
 6. Start the replication  
    `start slave;`
 7. Check the status  
