@@ -33,7 +33,7 @@ Senior Software Engineer from Somewhere.
 * Jenkins & Pipeline
 * Git & GitHub Enterprise
 * Angular  
-  [https://zhaojunlucky.ga/magicworldz](https://zhaojunlucky.ga/magicworldz)
+  [https://zhaojunlucky.top/magicworldz](https://zhaojunlucky.top/magicworldz)
 
 #### Database
 
